@@ -109,10 +109,10 @@ function demographics(school) {
  * @return HTML  The art partner information to display.
  */
 function partners(input) {
-    var partners = "";                              // string to hold html objects that are being created
-    var display_organization_header = true;         // boolean to determine of the Art Orgnization(s) header has been displayed
-    var display_individual_header = true;           // boolean to determine of the Individual Artist(s) header has been displayed
-    var display_hr = false;                         // boolean to determine if the first organization hr should be displayed
+    var partners = "";                              // String to hold html objects that are being created.
+    var display_organization_header = true;         // Boolean to determine of the Art Orgnization(s) header has been displayed.
+    var display_individual_header = true;           // Boolean to determine of the Individual Artist(s) header has been displayed.
+    var display_hr = false;                         // Boolean to determine if the first organization hr should be displayed.
 
     // If community art partners were provided.
     if (input.partners[0] != "NONE") {
